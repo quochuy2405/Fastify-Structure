@@ -9,7 +9,7 @@
 		"start": "node build/index.js",
 		"prepare": "husky install",
 		"lint-staged": {
-			"**/*": "prettier --write --ignore-unknown && prettier --check . "
+			"**/*": "prettier --write --ignore-unknown "
 		}
 	},
 	"keywords": [],
